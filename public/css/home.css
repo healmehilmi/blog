@@ -1,0 +1,227 @@
+html, body {
+    background-color: #b0a79e;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+nav{
+    z-index: 3;
+}
+h1{
+    color: white;
+    font-size: 45px;
+    font-family: 'Abril Fatface', cursive;
+
+}
+h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Muli', sans-serif;
+
+
+
+}
+h3{
+    color: white;
+    font-size: 20px;
+}
+.main-container{
+    margin-top: -70px;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: white;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a{
+    color: white;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+ .nav-logo{
+    height: 40px;
+}
+
+/* Banner style */
+
+.banner{
+    height: 100vh;
+    background-image: url(https://source.unsplash.com/collection/1481379/1080x1080);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-blend-mode: soft-light;
+    background-color: #473f27;
+   
+
+}
+.banner-text{
+    position: relative;
+    top: 200px;
+    
+}
+.banner-content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    padding:5px 70px;
+
+}
+.banner-buttons{
+    position: relative;
+    top: 200px;
+
+   
+}
+
+/*buttons*/
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: #b0a79e;
+    color: white;
+    /* padding: 0px 13px; */
+    box-shadow: 0px 3px 6px rgb(61, 58, 55);
+    font-size: 16px;
+    height: 38px;
+    width: 132px;
+    font-family: 'Muli', sans-serif;
+}
+.all-rest{
+    position: relative;
+    top: 312px;
+}
+
+
+/*  kitchen slider   */
+.kitchen-filter{
+   
+    margin-top: 50px;
+    
+    padding: 5px 79px;
+    max-width: 100%;
+  
+
+}
+
+  .swiper-container {
+      
+    height: 100%;
+    
+    margin-top: 74px;
+    width: 88%;
+  }
+  .swiper-slide {
+      position: relative;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      background-color: black;
+   
+    border: none;
+    border-radius: 13px;
+
+      /* Center slide text vertically */
+   
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+  }
+.swiper-inside{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background-color: #00000096;
+    backdrop-filter: blur(3px);
+    width: 100%;
+    border: none;
+    border-radius: 13px;
+    object-fit: cover;
+    height: 50px;
+
+}
+.swiper-inside h3{
+    padding: 6%;
+}
+.swiper-wrapper{
+    position: relative;
+}
+
+.kitchen-fotos{
+   
+    max-height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 13px;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+/*footer*/
+.footer-grup{
+    display: flex;
+  
+    justify-content: space-around;
+    
+}
+ul{
+    list-style: none;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #386c93;
+    color: white;
+    text-align: center;
+    z-index: 10;
+    padding: 14px 13px;
+}
+footer img{
+    height: 30px;
+}
